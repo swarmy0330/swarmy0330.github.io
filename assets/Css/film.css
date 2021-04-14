@@ -1,0 +1,159 @@
+body {
+  background-color: #f4f4f7;
+}
+
+.head {
+  padding: 20px;
+}
+
+
+
+.title {
+  font-family: 微軟正黑體;
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+  left: 100px;
+  top: 45px;
+  z-index: -1;
+}
+
+hr {
+  margin-top: 80px;
+}
+
+ul {
+  /* 取消ul預設的內縮及樣式 */
+  list-style: none;
+}
+
+ul.menu {
+  display: inline-block;
+  font-family: 微軟正黑體;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  right: 60px;
+  background-color: #e1eef6;
+
+}
+
+ul.menu li {
+  position: relative;
+  white-space: nowrap;
+  background-color: #e1eef6;
+}
+
+ul.menu>li {
+  float: left;
+  background-color: #e1eef6;
+}
+
+ul.menu a {
+  background-color: white;
+  color: black;
+  display: block;
+  padding: 0 30px;
+  text-decoration: none;
+  line-height: 50px;
+  background-color: #e1eef6;
+}
+
+ul.menu li:hover>a {
+  /* 滑鼠移入次選單上層按鈕保持變色*/
+  background-color: gray;
+  color: white;
+}
+
+ul.menu ul {
+  /*隱藏次選單*/
+  display: none;
+}
+
+ul.menu li:hover>ul {
+  /* 滑鼠滑入展開次選單*/
+  display: block;
+}
+
+ul.menu ul {
+  position: absolute;
+  z-index: 99;
+  top: 100%;
+  left: -40px;
+  min-width: 100%;
+
+}
+
+
+.line {
+  position: relative;
+  top: -20px;
+  ;
+}
+
+.video {
+  position: relative;
+  left: 90px;
+  top: -80px;
+}
+
+.text {
+  font-family: 微軟正黑體;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+  left: 710px;
+  top: -555px;
+
+}
+.text2 {
+  font-family: 微軟正黑體;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+  left: 750px;
+  top: -525px;
+
+}
+
+
+h1 {
+  position: relative;
+  left: -5.5cm;
+}
+
+.photo {
+  font-family: 微軟正黑體;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 40px;
+  position: relative;
+  top: -600px;
+}
+
+img {
+  height: 5cm;
+  width: 7cm;
+}
+img:hover {
+  height: 400px;
+  width: 350px;
+}
+.t{
+  background-color: gainsboro;
+  padding: 10px;
+
+}
+div.t1{
+  position: relative;
+  top: -40px;
+  left:50px;
+ 
+}
+div.t2{
+  position: relative;
+  top: -40px;
+  left:19.8px;
+}

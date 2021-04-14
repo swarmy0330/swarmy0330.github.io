@@ -1,0 +1,165 @@
+body {
+  background-color: #f4f4f7;
+}
+
+.head {
+  padding: 20px;
+}
+
+
+
+.title {
+  font-family: 微軟正黑體;
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+  left: 100px;
+  top: 45px;
+  z-index: -1;
+}
+
+hr {
+  margin-top: 80px;
+}
+
+ul {
+  /* 取消ul預設的內縮及樣式 */
+  list-style: none;
+}
+
+ul.menu {
+  display: inline-block;
+  font-family: 微軟正黑體;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  right: 60px;
+  background-color: #e1eef6;
+
+}
+
+ul.menu li {
+  position: relative;
+  white-space: nowrap;
+  background-color: #e1eef6;
+}
+
+ul.menu>li {
+  float: left;
+  background-color: #e1eef6;
+}
+
+ul.menu a {
+  background-color: white;
+  color: black;
+  display: block;
+  padding: 0 30px;
+  text-decoration: none;
+  line-height: 50px;
+  background-color: #e1eef6;
+}
+
+ul.menu li:hover>a {
+  /* 滑鼠移入次選單上層按鈕保持變色*/
+  background-color: gray;
+  color: white;
+}
+
+ul.menu ul {
+  /*隱藏次選單*/
+  display: none;
+}
+
+ul.menu li:hover>ul {
+  /* 滑鼠滑入展開次選單*/
+  display: block;
+}
+
+ul.menu ul {
+  position: absolute;
+  z-index: 99;
+  top: 100%;
+  left: -40px;
+  min-width: 100%;
+
+}
+
+div.connection {
+  position: absolute;
+  font-family: 微軟正黑體;
+  font-size: 20px;
+  border-style: double;
+  border-color: #84C1FF;
+  border-width: 4px;
+  margin-left: 680px;
+  background-color: white;
+  padding-bottom: 20px;
+  margin-top: 80px;
+  padding: 10px;
+  width: 600px;
+  height: 350px;
+  background-color: #f4f4f7;
+
+
+
+}
+
+.a1 {
+  width: 250px;
+  height: 24px;
+  float: left;
+}
+
+.a2 {
+  width: 250px;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.p1 {
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  color: #FFA042;
+}
+
+img {
+  z-index: index 1;
+  width: 550px;
+  height: 375px;
+  margin-left: 50px;
+  margin-top: 80px;
+  border-style: double;
+  border-color: #84C1FF;
+}
+
+.button {
+  position: absolute;
+  top: 315px;
+  left: 300px;
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  color: #FFA042;
+  font-weight: bold;
+  background-color: #C7C7E2;
+}
+
+.ww {
+  position: absolute;
+
+  bottom: -100px;
+  left: -10px;
+  text-align: center;
+
+  padding-top: 15px;
+}
+
+.a {
+  float: right;
+}
+
+.div.all {
+  padding-bottom: 80%;
+}

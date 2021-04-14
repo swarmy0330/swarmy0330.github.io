@@ -1,0 +1,208 @@
+body {
+  background-color: #f4f4f7;
+
+}
+
+.head {
+  padding: 20px;
+}
+
+.title {
+  font-family: 微軟正黑體;
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+  left: 360px;
+  top: 40px;
+  z-index: -1;
+}
+
+.title2 {
+  position: absolute;
+  left: 100px;
+  top: 25px;
+}
+
+hr {
+  margin-top: 80px;
+}
+
+ul {
+  /* 取消ul預設的內縮及樣式 */
+  list-style: none;
+}
+
+ul.menu {
+  display: inline-block;
+  font-family: 微軟正黑體;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  right: 60px;
+  background-color: #e1eef6;
+
+}
+
+ul.menu li {
+  position: relative;
+  white-space: nowrap;
+  background-color: #e1eef6;
+}
+
+ul.menu>li {
+  float: left;
+  background-color: #e1eef6;
+}
+
+ul.menu a {
+  background-color: white;
+  color: black;
+  display: block;
+  padding: 0 30px;
+  text-decoration: none;
+  line-height: 50px;
+  background-color: #e1eef6;
+}
+
+ul.menu li:hover>a {
+  /* 滑鼠移入次選單上層按鈕保持變色*/
+  background-color: gray;
+  color: white;
+}
+
+ul.menu ul {
+  /*隱藏次選單*/
+  display: none;
+}
+
+ul.menu li:hover>ul {
+  /* 滑鼠滑入展開次選單*/
+  display: block;
+}
+
+ul.menu ul {
+  position: absolute;
+  z-index: 99;
+  top: 100%;
+  left: -40px;
+  min-width: 100%;
+
+}
+
+img {
+  position: relative;
+  left: 425px;
+}
+
+h1 {
+  padding: left 10px;
+  ;
+}
+
+.f1 {
+  color: darkslategray;
+  font-size: 25pt;
+  font-family: 華康鐵線龍門W3;
+  font-weight: bold;
+  position: absolute;
+  left: 70px;
+  top: 150px;
+
+
+
+}
+
+.f2 {
+  color: darkslategray;
+  font-size: 25pt;
+  font-family: 華康鐵線龍門W3;
+  font-weight: bold;
+  position: absolute;
+  left: 70px;
+  top: 470px;
+}
+
+.f3 {
+  color: darkslategray;
+  font-size: 25pt;
+  font-family: 華康鐵線龍門W3;
+  font-weight: bold;
+  position: absolute;
+  left: 100px;
+  top: 860px;
+}
+
+.img1 {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  width: 250px;
+  height: 200px;
+}
+
+.img2 {
+  position: absolute;
+  left: 100px;
+  top: 520px;
+  width: 250px;
+  height: 200px;
+}
+
+.img3 {
+  position: absolute;
+  left: 100px;
+  top: 910px;
+  width: 250px;
+  height: 200px;
+}
+
+.t1 {
+  color: darkslategrey;
+  font-size: 14pt;
+  font-family: 微軟正黑體;
+  position: absolute;
+  left: 400px;
+  top: 220px;
+  background-color: lightsteelblue;
+  border-radius: 10px;
+  width: 900px;
+
+}
+
+.t2 {
+  color: darkslategrey;
+  font-size: 14pt;
+  font-family: 微軟正黑體;
+  position: absolute;
+  left: 400px;
+  top: 470px;
+  background-color: khaki;
+  border-radius: 10px;
+  width: 900px;
+
+}
+
+.t3 {
+  color: darkslategrey;
+  font-size: 14pt;
+  font-family: 微軟正黑體;
+  position: absolute;
+  left: 400px;
+  top: 850px;
+  background-color: lightsteelblue;
+  border-radius: 10px;
+  width: 900px;
+
+}
+
+div.all {
+  padding-bottom: 80%;
+}
+
+.ww {
+
+  text-align: center;
+
+  padding-top: 15px;
+
+}
