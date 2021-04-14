@@ -82,5 +82,324 @@ ul.menu ul {
 
 }
 
+img.a1 {
+  position: absolute;
+  top: 180px;
+  left: 130px;
+  height: 350px;
+  width: 300px;
+}
+
+.ig1 {
+  position: absolute;
+  top: 220px;
+  left: 570px;
+  height: 60px;
+  width: 60px;
+}
+
+.fb1 {
+  position: absolute;
+  top: 220px;
+  left: 650px;
+  height: 60px;
+  width: 60px;
+}
 
 
+img.a2 {
+  position: absolute;
+  top: 600px;
+  left: 130px;
+  height: 350px;
+  width: 300px;
+}
+
+.ig2 {
+  position: absolute;
+  top: 640px;
+  left: 570px;
+  height: 60px;
+  width: 60px;
+}
+
+.fb2 {
+  position: absolute;
+  top: 640px;
+  left: 650px;
+  height: 60px;
+  width: 60px;
+}
+
+img.a3 {
+  position: absolute;
+  top: 1020px;
+  left: 130px;
+  height: 350px;
+  width: 300px;
+}
+
+.ig3 {
+  position: absolute;
+  top: 1060px;
+  left: 570px;
+  height: 60px;
+  width: 60px;
+}
+
+.fb3 {
+  position: absolute;
+  top: 1060px;
+  left: 650px;
+  height: 60px;
+  width: 60px;
+}
+
+img.a4 {
+  position: absolute;
+  top: 1440px;
+  left: 130px;
+  height: 350px;
+  width: 300px;
+}
+
+.ig4 {
+  position: absolute;
+  top: 1480px;
+  left: 570px;
+  height: 60px;
+  width: 60px;
+}
+
+.fb4 {
+  position: absolute;
+  top: 1480px;
+  left: 650px;
+  height: 60px;
+  width: 60px;
+}
+
+img.a1:hover {
+  height: 400px;
+  width: 350px;
+}
+
+img.a2:hover {
+  height: 400px;
+  width: 350px;
+}
+
+img.a3:hover {
+  height: 400px;
+  width: 350px;
+}
+
+img.a4:hover {
+  height: 400px;
+  width: 350px;
+}
+
+.flip-container {
+  perspective: 1000;
+}
+
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+  width: 320px;
+  height: 480px;
+}
+
+.flipper {
+  transition: 0s;
+  transform-style: preserve-3d;
+
+
+}
+
+
+.front1 {
+
+  backface-visibility: hidden;
+  position: absolute;
+  top: 160px;
+  left: 530px;
+  font-family: "微軟正黑體";
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 5px;
+  border: 2px;
+  border-style: solid white;
+  padding: 5px;
+  text-align: left;
+  height: 180px;
+  width: 650px;
+  background-color: white;
+}
+
+
+.back1 {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  position: absolute;
+  top: 160px;
+  right: 500px;
+  font-family: "微軟正黑體";
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 5px;
+  border: 2px;
+  border-style: solid white;
+  padding: 5px;
+  text-align: left;
+  height: 180px;
+  width: 650px;
+  background-color: white;
+}
+
+
+
+
+.front2 {
+
+  backface-visibility: hidden;
+  position: absolute;
+  top: 100px;
+  left: 530px;
+  font-family: "微軟正黑體";
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 5px;
+  border: 2px;
+  border-style: solid white;
+  padding: 5px;
+  text-align: left;
+  height: 180px;
+  width: 650px;
+  background-color: white;
+}
+
+.back2 {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  position: absolute;
+  top: 100px;
+  right: 500px;
+  font-family: "微軟正黑體";
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 5px;
+  border: 2px;
+  border-style: solid white;
+  padding: 5px;
+  text-align: left;
+  height: 180px;
+  width: 650px;
+  background-color: white;
+}
+
+.front3 {
+
+  backface-visibility: hidden;
+  position: absolute;
+  top: 40px;
+  left: 530px;
+  font-family: "微軟正黑體";
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 5px;
+  border: 2px;
+  border-style: solid white;
+  padding: 5px;
+  text-align: left;
+  height: 180px;
+  width: 650px;
+  background-color: white;
+}
+
+
+.back3 {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  position: absolute;
+  top: 40px;
+  right: 500px;
+  font-family: "微軟正黑體";
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 5px;
+  border: 2px;
+  border-style: solid white;
+  padding: 5px;
+  text-align: left;
+  height: 180px;
+  width: 650px;
+  background-color: white;
+}
+
+.front4 {
+
+  backface-visibility: hidden;
+  position: absolute;
+  top: -15px;
+  left: 530px;
+  font-family: "微軟正黑體";
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 5px;
+  border: 2px;
+  border-style: solid white;
+  padding: 5px;
+  text-align: left;
+  height: 180px;
+  width: 650px;
+  background-color: white;
+}
+
+.back4 {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  position: absolute;
+  top: -15px;
+  right: 500px;
+  font-family: "微軟正黑體";
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 5px;
+  border: 2px;
+  border-style: solid white;
+  padding: 5px;
+  text-align: left;
+  height: 180px;
+  width: 650px;
+  background-color: white;
+}
+
+.ww {
+
+  text-align: center;
+
+  padding-top: 15px;
+}
