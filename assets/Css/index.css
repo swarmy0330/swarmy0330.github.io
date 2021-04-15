@@ -169,7 +169,10 @@ h1 {
 }
 
 .ww {
+  position: absolute;
 
+  bottom: -450px;
+  left: -10px;
   text-align: center;
 
   padding-top: 15px;
