@@ -103,17 +103,18 @@ ul.menu ul {
   text-align: center;
   padding-top: 30px;
   position: relative;
-  left: 710px;
+  left: 780px;
   top: -555px;
 
 }
+
 .text2 {
   font-family: 微軟正黑體;
   font-size: 20px;
   text-align: center;
   padding-top: 30px;
   position: relative;
-  left: 750px;
+  left: 820px;
   top: -525px;
 
 }
@@ -134,26 +135,40 @@ h1 {
 }
 
 img {
-  height: 5cm;
-  width: 7cm;
+  height: 200px;
+  width: 260px;
 }
+
 img:hover {
-  height: 400px;
-  width: 350px;
+  height: 250px;
+  width: 310px;
 }
-.t{
+
+.t {
   background-color: gainsboro;
   padding: 10px;
 
 }
-div.t1{
+
+div.t1 {
   position: relative;
   top: -40px;
-  left:50px;
- 
+  left: 50px;
+
 }
-div.t2{
+
+div.t2 {
   position: relative;
   top: -40px;
-  left:19.8px;
+  left: 19.8px;
+}
+
+.ww {
+  position: absolute;
+
+  bottom: -1200px;
+  left: 190px;
+  text-align: center;
+
+  padding-top: 15px;
 }
