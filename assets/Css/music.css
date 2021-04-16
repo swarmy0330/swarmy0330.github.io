@@ -107,7 +107,7 @@ h1 {
   font-family: 華康鐵線龍門W3;
   font-weight: bold;
   position: absolute;
-  left: 100px;
+  left: 150px;
   top: 170px;
 
 }
@@ -118,7 +118,7 @@ h1 {
   font-family: 華康鐵線龍門W3;
   font-weight: bold;
   position: absolute;
-  left: 110px;
+  left: 150px;
   top: 470px;
 }
 
@@ -128,21 +128,21 @@ h1 {
   font-family: 華康鐵線龍門W3;
   font-weight: bold;
   position: absolute;
-  left: 130px;
+  left: 150px;
   top: 800px;
 }
 
 .img1 {
   position: absolute;
-  left: 100px;
-  top: 220px;
+  left: 300px;
+  top: 240px;
   width: 250px;
   height: 200px;
 }
 
 .img2 {
   position: absolute;
-  left: 100px;
+  left: 300px;
   top: 520px;
   width: 250px;
   height: 200px;
@@ -150,7 +150,7 @@ h1 {
 
 .img3 {
   position: absolute;
-  left: 100px;
+  left: 300px;
   top: 850px;
   width: 250px;
   height: 200px;
@@ -161,7 +161,7 @@ h1 {
   font-size: 14pt;
   font-family: 微軟正黑體;
   position: absolute;
-  left: 400px;
+  left: 700px;
   top: 210px;
   background-color: lightsteelblue;
   border-radius: 10px;
@@ -174,7 +174,7 @@ h1 {
   font-size: 14pt;
   font-family: 微軟正黑體;
   position: absolute;
-  left: 400px;
+  left: 700px;
   top: 550px;
   background-color: khaki;
   border-radius: 10px;
@@ -187,7 +187,7 @@ h1 {
   font-size: 14pt;
   font-family: 微軟正黑體;
   position: absolute;
-  left: 400px;
+  left: 700px;
   top: 810px;
   background-color: lightsteelblue;
   border-radius: 10px;
@@ -200,7 +200,10 @@ div.all {
 }
 
 .ww {
+  position: absolute;
 
+  bottom: -700px;
+  left: 190px;
   text-align: center;
 
   padding-top: 15px;
