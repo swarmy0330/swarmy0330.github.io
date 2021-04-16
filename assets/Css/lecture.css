@@ -105,7 +105,7 @@ h1 {
   font-family: 華康鐵線龍門W3;
   font-weight: bold;
   position: absolute;
-  left: 100px;
+  left: 150px;
   top: 160px;
 
 }
@@ -116,7 +116,7 @@ h1 {
   font-family: 華康鐵線龍門W3;
   font-weight: bold;
   position: absolute;
-  left: 110px;
+  left: 150px;
   top: 490px;
 }
 
@@ -126,13 +126,13 @@ h1 {
   font-family: 華康鐵線龍門W3;
   font-weight: bold;
   position: absolute;
-  left: 130px;
+  left: 150px;
   top: 830px;
 }
 
 .img1 {
   position: absolute;
-  left: 100px;
+  left: 300px;
   top: 210px;
   width: 250px;
   height: 200px;
@@ -140,7 +140,7 @@ h1 {
 
 .img2 {
   position: absolute;
-  left: 100px;
+  left: 300px;
   top: 540px;
   width: 250px;
   height: 200px;
@@ -148,7 +148,7 @@ h1 {
 
 .img3 {
   position: absolute;
-  left: 100px;
+  left: 300px;
   top: 870px;
   width: 250px;
   height: 200px;
@@ -159,7 +159,7 @@ h1 {
   font-size: 14pt;
   font-family: 微軟正黑體;
   position: absolute;
-  left: 400px;
+  left: 700px;
   top: 210px;
   background-color: lightsteelblue;
   border-radius: 10px;
@@ -172,7 +172,7 @@ h1 {
   font-size: 14pt;
   font-family: 微軟正黑體;
   position: absolute;
-  left: 400px;
+  left: 700px;
   top: 530px;
   background-color: khaki;
   border-radius: 10px;
@@ -185,7 +185,7 @@ h1 {
   font-size: 14pt;
   font-family: 微軟正黑體;
   position: absolute;
-  left: 400px;
+  left: 700px;
   top: 870px;
   background-color: lightsteelblue;
   border-radius: 10px;
@@ -198,7 +198,10 @@ div.all {
 }
 
 .ww {
+  position: absolute;
 
+  bottom: -700px;
+  left: 190px;
   text-align: center;
 
   padding-top: 15px;
