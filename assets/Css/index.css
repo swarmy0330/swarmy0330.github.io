@@ -163,7 +163,7 @@ h1 {
 .h2 {
   position: relative;
   top: 430px;
-  left: 485px;
+  left: 680px;
   width: 500px;
   text-align: center
 }
@@ -172,7 +172,7 @@ h1 {
   position: absolute;
 
   bottom: -450px;
-  left: -10px;
+  left: 190px;
   text-align: center;
 
   padding-top: 15px;
@@ -184,7 +184,7 @@ h1 {
   padding: 1em;
   position: absolute;
   top: 680px;
-  left: 290px;
+  left: 480px;
 
 }
 
